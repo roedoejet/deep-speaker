@@ -8,8 +8,8 @@ import numpy as np
 from python_speech_features import fbank
 from tqdm import tqdm
 
-from constants import SAMPLE_RATE, NUM_FBANKS
-from utils import find_files, ensures_dir
+from .constants import SAMPLE_RATE, NUM_FBANKS
+from .utils import find_files, ensures_dir
 
 logger = logging.getLogger(__name__)
 

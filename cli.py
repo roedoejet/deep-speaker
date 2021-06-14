@@ -6,13 +6,13 @@ import os
 
 import click
 
-from audio import Audio
-from batcher import KerasFormatConverter
-from constants import SAMPLE_RATE, NUM_FRAMES
-from test import test
-from train import start_training
-from utils import ClickType as Ct, ensures_dir
-from utils import init_pandas
+from .audio import Audio
+from .batcher import KerasFormatConverter
+from .constants import SAMPLE_RATE, NUM_FRAMES
+from .test import test
+from .train import start_training
+from .utils import ClickType as Ct, ensures_dir
+from .utils import init_pandas
 
 logger = logging.getLogger(__name__)
 
